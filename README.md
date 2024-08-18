@@ -9,3 +9,6 @@ A new configuration of Neovim. My old Neovim config were messy af. It's not some
     5. Lspconfig
     6. Oil.nvim
     7. Catppuccin theme
+    8. Conform
+    9. Tmux navigator
+    10. Gitsigns
