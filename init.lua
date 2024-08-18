@@ -14,6 +14,8 @@ vim.opt.clipboard = "unnamedplus"
 vim.opt.cursorline = true
 vim.opt.virtualedit = "block"
 vim.opt.backupcopy = "yes"
+
+vim.loader.enable()
 -- for windows
 -- vim.opt.shell = "powershell.exe"
 
