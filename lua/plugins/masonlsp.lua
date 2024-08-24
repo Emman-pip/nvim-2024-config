@@ -26,6 +26,9 @@ return {
 					if (server_name == "emmet_language_server")
 					then
 						require("customconfigs.emmet_setup")
+						-- elseif (server_name == "jdtls")
+						-- then
+						-- 	return
 					end
 					require("lspconfig")[server_name].setup({ capabilities = capabilities })
 				end,
