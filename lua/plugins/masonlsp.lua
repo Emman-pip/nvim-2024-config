@@ -17,7 +17,8 @@ return {
 				-- php
 				"intelephense",
 				"stimulus_ls",
-				"jdtls",
+				-- "jdtls",
+				-- md
 			},
 
 			handlers = {
