@@ -14,6 +14,7 @@ vim.opt.clipboard = "unnamedplus"
 vim.opt.cursorline = true
 vim.opt.virtualedit = "block"
 vim.opt.backupcopy = "yes"
+vim.opt.mouse = ""
 
 
 vim.loader.enable()
