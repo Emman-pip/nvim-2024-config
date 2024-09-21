@@ -21,3 +21,7 @@ vim.keymap.set('n', '<leader>crp', ':CRProjects<CR>', { noremap = true, silent =
 -- vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
 -- vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
 -- vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
+
+-- for diagnostics
+vim.keymap.set('n', '<leader>a', ':lua vim.diagnostic.open_float()<CR>', { noremap = true, silent = false })
+--
