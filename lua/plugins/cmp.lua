@@ -13,6 +13,7 @@ return {
 		-- " For ultisnips users.
 		-- 'SirVer/ultisnips',
 		-- 'quangnguyen30192/cmp-nvim-ultisnips',
+		-- 'hrsh7th/vim-vsnip',
 	},
 
 	config = function()

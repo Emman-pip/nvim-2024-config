@@ -7,8 +7,8 @@ return {
 			ensure_installed = {
 				"lua_ls",
 				"rust_analyzer",
-				"pylsp",
-				-- "pyright",
+				-- "pylsp",
+				"pyright",
 				"emmet_language_server",
 				"tailwindcss",
 				"tsserver",
